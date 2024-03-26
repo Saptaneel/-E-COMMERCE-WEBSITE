@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - RedStore</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+       
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="IMAGES/logo (1).png" width="125px"></a>
+        </div>
+        <nav>   
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Men</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="IMAGES/cart.png" width="30px" height="30px"></a>
+    </div>
+</div>
+
+<div class="small-container cart-page">
+    <table id="cartTable">
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Subtotal</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td id="subtotal">$0.00</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>$35.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td id="total">$0.00</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<script src="cart.js"></script>
+
+</body>
+</html>
